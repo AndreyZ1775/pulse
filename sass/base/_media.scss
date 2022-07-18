@@ -1,0 +1,38 @@
+@media  (max-width: 575px) {
+    .header { 
+        flex-direction: column;
+        &__logo {
+            width: 230px;
+        }
+        &__contacts {
+            align-items: center;
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            text-align: center;
+        }
+        &__subheader {
+            text-align: center;
+        }
+        &__icons {
+            justify-content: center;
+            width: 270px;
+        }
+    }
+    .benefits {
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-bottom: 30px;
+        }
+    }
+}
